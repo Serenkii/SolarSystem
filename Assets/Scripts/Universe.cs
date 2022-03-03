@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Universe : MonoBehaviour
 {
-    public const float G = 0.001f;
+    public const float G = 0.0001f;
 
 
 }

@@ -9,6 +9,7 @@ public class CelestialBody : GravityObject
 
     private Vector3 velocity;
     [SerializeField] private Vector3 initialVelocity;
+    public Vector3 InitialVelocity { get { return initialVelocity; } }
 
     private void Start()
     {
@@ -17,8 +18,8 @@ public class CelestialBody : GravityObject
 
     public override void FixedUpdate()
     {
-        UpdateVelocity();
-        UpdatePosition();
+        //UpdateVelocity();
+        //UpdatePosition();
     }
 
     public void UpdateVelocity()
